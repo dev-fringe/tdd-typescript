@@ -1,26 +1,25 @@
 {
-   "compilerOptions": {
-      "target": "es5",
-      "module": "commonjs",
-      "moduleResolution": "node",
-      "noImplicitAny": true,
-      "declaration": true,
-      "sourceMap": true,
-      "preserveConstEnums": true,
-      "experimentalDecorators": true,
-      "emitDecoratorMetadata": true,
-      "lib": [ "es5", "es2015.promise" ]
-   },
-   "buildOnSave": false,
-   "compileOnSave": true,
-   "exclude": [
-      "./**/*.d.ts",
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es6",
+        "sourceMap": true,
+        "allowJs": false,
+        "alwaysStrict": true,
+        "noImplicitAny": true,
+        "noImplicitReturns": true,
+        "noImplicitThis": true,
+        "noEmitOnError": true,
+        "noUnusedLocals": true,
+        "noUnusedParameters": true,
+        "declaration": true,
+        "experimentalDecorators": true,
+        "forceConsistentCasingInFileNames": true,
+        "strictNullChecks": true
+    },
+    "include": [
+      "example.spec.ts"
+    ],
+    "exclude": [
       "node_modules"
-   ],
-   "filesGlob": [
-      "./**/*.ts"
-   ],
-   "atom": {
-      "rewriteTsconfig": false
-   }
+    ]
 }
