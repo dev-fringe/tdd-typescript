@@ -1,5 +1,6 @@
 {
   "scripts": {
+    "pretest": "tsc",
     "test": "alsatian example.spec.js"
   },
   "devDependencies": {
