@@ -1,0 +1,9 @@
+{
+  "scripts": {
+    "test": "alsatian example.spec.js"
+  },
+  "devDependencies": {
+    "alsatian": "^1.2.1",
+    "typescript": "^2.2.1"
+  }
+}
