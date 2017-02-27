@@ -1,7 +1,8 @@
 {
   "scripts": {
     "pretest": "tsc",
-    "test": "alsatian example.spec.js"
+    "test": "alsatian example.spec.js",
+    "cleanup": "rm -f example.spec.d.ts example.spec.js example.spec.js.map"
   },
   "devDependencies": {
     "alsatian": "^1.2.1",
