@@ -8,8 +8,9 @@
     },
     "files": [
         "./src/foo.ts",
-        "./src/Hello.ts",
+        "./src/hello.ts",
         "./greeter.ts",
         "./test/unit-test.ts"
     ]
+
 }

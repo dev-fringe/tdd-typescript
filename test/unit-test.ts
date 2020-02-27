@@ -1,6 +1,6 @@
 import { Expect, Test } from "alsatian";
-import { Hello } from '../src/Hello';
-
+import { Hello } from '../src/hello';
+//test
 export class TestExample {
 
   @Test()
