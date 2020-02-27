@@ -1,13 +1,15 @@
 {
     "compilerOptions": {
-        "module": "commonjs",
         "target": "es6",
-        "experimentalDecorators": true
+        "outDir": "./dist/",
+        "module": "commonjs",
+        "experimentalDecorators": true,
+        "emitDecoratorMetadata": true,
     },
-    "include": [
-      "example.spec.ts"
-    ],
-    "exclude": [
-      "node_modules"
+    "files": [
+        "./src/foo.ts",
+        "./src/Hello.ts",
+        "./greeter.ts",
+        "./test/unit-test.ts"
     ]
 }
