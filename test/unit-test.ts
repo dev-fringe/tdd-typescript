@@ -7,7 +7,7 @@ import { Hello } from '../src/hello';
 
 export class TestExample {
 
-  //i'm missing the @CompnentScan,@ContextConfiguration, AnnotationConfigApplicationContext
+  //i'm missing  @CompnentScan,@ContextConfiguration, AnnotationConfigApplicationContext
   @SetupFixture
   public setupFixture() {
     container.register("SuperService", {useClass: TestService});
