@@ -1,6 +1,6 @@
 import {injectable} from "tsyringe";
 import * as restm from 'typed-rest-client/RestClient';
-//test 
+
 export interface Person {
     name : string;
     age : string;

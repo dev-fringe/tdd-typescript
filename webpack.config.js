@@ -1,5 +1,5 @@
 const path = require('path');
-//test
+
 module.exports = {
   mode: "development",
   entry: './src/index.tsx',

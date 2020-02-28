@@ -1,4 +1,3 @@
-// main.ts
 import "reflect-metadata";
 import {Application} from "./Application";
 import {TestService} from "./service/TestService";
