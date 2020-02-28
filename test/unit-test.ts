@@ -3,7 +3,7 @@ import { Expect, Test, SetupFixture } from "alsatian";
 import {container, inject} from "tsyringe";
 import {Application} from "../src/Application";
 import {TestService} from "../src/service/TestService";
-import { Hello } from '../src/hello';
+import { Hello } from './hello';
 //import { SuperService } from "../src/service/SuperService";
 
 export class TestExample {
