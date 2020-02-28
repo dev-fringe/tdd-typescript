@@ -7,13 +7,10 @@
   },
   "devDependencies": {
     "alsatian": "^1.2.1",
-    "tsc-watch": "^4.1.0",
-    "typescript": "^2.2.1"
-  },
-  "dependencies": {
     "reflect-metadata": "^0.1.13",
+    "tsc-watch": "^4.1.0",
     "tsyringe": "^4.1.0",
-    "typed-rest-client": "^1.7.1"
+    "typed-rest-client": "^1.7.2",
+    "typescript": "^2.2.1"
   }
-  
 }

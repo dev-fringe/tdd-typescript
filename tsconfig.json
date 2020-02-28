@@ -7,9 +7,7 @@
         "emitDecoratorMetadata": true,
     },
     "files": [
-        "./src/foo.ts",
-        "./src/hello.ts",
-        "./greeter.ts",
+        "./src/Application.ts",
         "./test/unit-test.ts"
     ]
 
