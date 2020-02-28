@@ -1,4 +1,4 @@
-# tdd-typescript
+# tdd development in front side using node, npm, typescipt, alsatian, dependency injection 
 typescript, webpack, react, alsatian, spring like .. ing maybe doestn't
 ## back-end log
 * 16:24:34.412 [XNIO-1 I/O-8] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [12015a8b] HTTP GET "/person"
