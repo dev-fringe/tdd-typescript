@@ -1,16 +1,24 @@
 {
   "scripts": {
     "pretest": "tsc",
-    "test": "alsatian ./dist/test/unit-test.js",
+    "test": "alsatian ./dist/test/unit-test.js --tap",
     "watch": "tsc-watch && alsatian ./dist/test/unit-test.js",
-    "cleanup": "rm -f unit-test.ts unit-test.js"
+    "cleanup": "rm -f unit-test.ts unit-test.js",
+    "build": "webpack"
   },
   "devDependencies": {
-    "alsatian": "^1.2.1",
+    "@types/react": "^16.9.23",
+    "@types/react-dom": "^16.9.5",
+    "alsatian": "^3.2.1",
+    "net": "^1.0.2",
     "reflect-metadata": "^0.1.13",
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^6.2.1",
     "tsc-watch": "^4.1.0",
     "tsyringe": "^4.1.0",
     "typed-rest-client": "^1.7.2",
-    "typescript": "^2.2.1"
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11"
   }
 }

@@ -3,8 +3,8 @@
         "target": "es6",
         "outDir": "./dist/",
         "module": "commonjs",
-        "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
+        "experimentalDecorators": true
     },
     "files": [
         "./src/Application.ts",

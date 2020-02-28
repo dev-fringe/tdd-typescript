@@ -1,10 +1,10 @@
 import "reflect-metadata";
-import { Expect, Test, SetupFixture, AsyncTest } from "alsatian";
+import { Expect, Test, SetupFixture } from "alsatian";
+import {container, inject} from "tsyringe";
 import {Application} from "../src/Application";
 import {TestService} from "../src/service/TestService";
-import {container, inject} from "tsyringe";
 import { Hello } from '../src/hello';
-import { SuperService } from "../src/service/SuperService";
+//import { SuperService } from "../src/service/SuperService";
 
 export class TestExample {
 
@@ -16,7 +16,7 @@ export class TestExample {
     container.register("SuperService", {useClass: TestService});
   }
   
-  @AsyncTest()
+  @Test()
   public async unitTest() {
     const app = container.resolve(Application);
     //const response = this.service.print()
