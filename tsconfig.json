@@ -4,7 +4,8 @@
         "outDir": "./dist/",
         "module": "commonjs",
         "emitDecoratorMetadata": true,
-        "experimentalDecorators": true
+        "experimentalDecorators": true,
+        "jsx": "react"
     },
     "files": [
         "./src/Application.ts",

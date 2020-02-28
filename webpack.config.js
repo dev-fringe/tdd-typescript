@@ -2,7 +2,7 @@ const path = require('path');
 //test
 module.exports = {
   mode: "development",
-  entry: './src/index.ts',
+  entry: './src/index.tsx',
   module: {
     rules: [
       {
@@ -19,9 +19,13 @@ module.exports = {
     filename: 'bundle.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  externals: {
+    "react": "React",
+    "react-dom": "ReactDOM"
+  },  
   node: {
     fs: 'empty',
     net: 'empty',
     tls: 'empty',
- }
+  }
 };  
