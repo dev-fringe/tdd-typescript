@@ -1,5 +1,5 @@
 # tdd development in front side using node, npm, typescript, webpack, react, alsatian, dependency injection 
-typescript, webpack, react, alsatian, spring like .. ing maybe doestn't
+typescript, webpack, react, alsatian, spring like .. ing maybe doesn't
 ## back-end log
 * 16:24:34.412 [XNIO-1 I/O-8] DEBUG org.springframework.web.server.adapter.HttpWebHandlerAdapter - [12015a8b] HTTP GET "/person"
 * 16:24:34.552 [XNIO-1 I/O-8] DEBUG org.springframework.web.reactive.function.server.support.RouterFunctionMapping - [12015a8b] Mapped to dev.fringe.web.function.configuration.RoutingConfiguration$$Lambda$146/533415944@75c2579
